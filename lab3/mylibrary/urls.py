@@ -15,7 +15,7 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
-    url(r'^library/search/$', 'bookdb.views.hello'),
+    
     url(r'^library/search/$', 'bookdb.views.search_from'),
     url(r'^library/name_search/$', 'bookdb.views.name_search'),
     url(r'^library/add/$', 'bookdb.views.add'),

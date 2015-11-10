@@ -1,6 +1,6 @@
 # Create your views here.
 from django.template.loader import get_template
-from django.template import Context
+
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from bookdb.models import Book,Author
