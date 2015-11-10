@@ -4,7 +4,7 @@ Created on Fri Oct 30 18:41:26 2015
 
 @author: ANYOHAO
 """
-
+#  制作表单
 from django import forms
 class BookForm(forms.Form):
     AuthorID = forms.CharField(max_length=20)
