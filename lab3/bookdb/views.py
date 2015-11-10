@@ -106,5 +106,4 @@ def name_search(request):
     return render_to_response('search.html',
         {'error': error})
 
-def hello(request):
-    return  HttpResponse('hello world!')   
+ 

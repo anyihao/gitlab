@@ -7,7 +7,7 @@ Created on Fri Oct 30 18:41:26 2015
 
 from django import forms
 class BookForm(forms.Form):
-    AuthorID = forms.CharField(max_length=40)
+    AuthorID = forms.CharField(max_length=20)
 
     Name = forms.CharField(max_length=40)
     Age = forms.IntegerField()

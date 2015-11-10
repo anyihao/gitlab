@@ -1,4 +1,4 @@
-# Django settings for mylibrary project.
+
 
 
 import os
